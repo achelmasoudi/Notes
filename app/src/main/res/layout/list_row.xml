@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/editId"
+            android:layout_width="@dimen/Edit_width"
+            android:layout_height="@dimen/Edit_height"
+            android:layout_marginLeft="@dimen/Edit_marginLeft"
+            android:layout_marginTop="@dimen/Edit_layout_marginTop"
+            android:layout_marginBottom="@dimen/Edit_layout_marginBottom"
+            android:background="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/deleteId"
+            android:layout_width="@dimen/Delete_width"
+            android:layout_height="@dimen/Delete_height"
+            android:layout_marginLeft="@dimen/Delete_layout_marginLeft"
+            android:layout_marginTop="@dimen/Delete_layout_marginTop"
+            android:layout_marginBottom="@dimen/Delete_layout_marginBottom"
+            android:background="@drawable/delete" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titleId"
+        android:layout_width="@dimen/Title_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Title_layout_marginLeft"
+        android:layout_marginTop="@dimen/Title_layout_marginTop"
+        android:fontFamily="@font/aclonica"
+        android:text="Title"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/Title_text_size" />
+
+    <TextView
+        android:id="@+id/timeStampId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleId"
+        android:layout_marginLeft="@dimen/Time_layout_marginLeft"
+        android:fontFamily="@font/playfair_display"
+        android:text="Time"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="@dimen/Time_text_size" />
+
+    <View
+        android:id="@+id/khaaatId"
+        android:layout_below="@+id/timeStampId"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/khat_height"
+        android:layout_marginTop="@dimen/Khat_layout_marginTop"
+        android:background="#FFFFFF"
+        />
+</RelativeLayout>

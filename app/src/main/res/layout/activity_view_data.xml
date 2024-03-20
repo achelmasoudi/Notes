@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:id="@+id/scrollid"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="views.ViewDataActivity"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:scrollbarSize="7dp"
+    android:background="@color/background_color"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/titleIdFromViewData"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/aladin"
+            android:gravity="center"
+            android:text="Title"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/descriptionIdFromViewData"
+            android:layout_width="335dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/titleIdFromViewData"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/amarante"
+            android:gravity="center_horizontal"
+            android:text="Description"
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

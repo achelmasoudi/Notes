@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="Another_Layout" type="layout">@layout/list_row</item>
+
+    //Title
+    <dimen name="Title_width">270dp</dimen>
+    <dimen name="Title_layout_marginLeft">12dp</dimen>
+    <dimen name="Title_layout_marginTop">8dp</dimen>
+    <dimen name="Title_text_size">25dp</dimen>
+
+    //Time
+    <dimen name="Time_layout_marginLeft">12dp</dimen>
+    <dimen name="Time_text_size">15dp</dimen>
+
+    //Khat
+    <dimen name="khat_height">5dp</dimen>
+    <dimen name="Khat_layout_marginTop">9dp</dimen>
+
+    //Edit Picture
+    <dimen name="Edit_width">25dp</dimen>
+    <dimen name="Edit_height">25dp</dimen>
+    <dimen name="Edit_marginLeft">405dp</dimen>
+    <dimen name="Edit_layout_marginTop">22dp</dimen>
+    <dimen name="Edit_layout_marginBottom">32dp</dimen>
+
+
+    //Delete Picture
+    <dimen name="Delete_width">25dp</dimen>
+    <dimen name="Delete_height">25dp</dimen>
+    <dimen name="Delete_layout_marginLeft">8dp</dimen>
+    <dimen name="Delete_layout_marginTop">22dp</dimen>
+    <dimen name="Delete_layout_marginBottom">32dp</dimen>
+
+    //LinearLayout
+    <dimen name="layout_height">70dp</dimen>
+
+</resources>

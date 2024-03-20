@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="edit_layout1" type="layout">@layout/activity_edit_data</item>
+    <item name="edit_layout2" type="layout">@layout/activity_add_data</item>
+
+    //Title
+    <dimen name="title_layout_width">620dp</dimen>
+    <dimen name="title_layout_height">170dp</dimen>
+    <dimen name="title_textSize">100dp</dimen>
+
+    //EditText
+    <dimen name="edittext_layout_width">880dp</dimen>
+    <dimen name="edittext_layout_height">990dp</dimen>
+    <dimen name="edittext_textSize">55dp</dimen>
+
+    //Button
+    <dimen name="button_layout_width">460dp</dimen>
+    <dimen name="button_layout_height">100dp</dimen>
+    <dimen name="button_textSize">45dp</dimen>
+
+</resources>
